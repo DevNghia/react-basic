@@ -1,0 +1,15 @@
+.list-todo-container{
+    .list-todo-content{
+        width: 400px;
+        margin: 0 auto;
+        .todo-child{
+             &:first-child{
+                border-top: 1px solid white;
+                background: red;
+             }
+            height: 40px;
+            border-bottom: 1px solid gray ;
+            margin: 10px;
+        }
+    }
+}
